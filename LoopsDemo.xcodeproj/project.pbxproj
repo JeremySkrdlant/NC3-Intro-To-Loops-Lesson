@@ -40,11 +40,6 @@
 			path = LoopsDemoTests;
 			sourceTree = "<group>";
 		};
-		174172AB2D1AF42800733E83 /* LoopsDemoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LoopsDemoUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +72,6 @@
 			children = (
 				174172902D1AF42300733E83 /* LoopsDemo */,
 				174172A12D1AF42800733E83 /* LoopsDemoTests */,
-				174172AB2D1AF42800733E83 /* LoopsDemoUITests */,
 				1741728F2D1AF42300733E83 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +146,6 @@
 			);
 			dependencies = (
 				174172AA2D1AF42800733E83 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				174172AB2D1AF42800733E83 /* LoopsDemoUITests */,
 			);
 			name = LoopsDemoUITests;
 			packageProductDependencies = (
