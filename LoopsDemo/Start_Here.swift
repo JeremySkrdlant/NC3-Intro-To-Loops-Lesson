@@ -9,7 +9,7 @@ import SwiftUI
 //|--------------------|
 func Play(){
 	print("---------------------")
-	print("   Lesson Play Ran")
+	print("   Lesson Play Ran   ")
 	print("---------------------")
 	
 	
