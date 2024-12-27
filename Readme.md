@@ -2,7 +2,7 @@
 This is designed as a live demo for students to learn about using loops in Swift.  It includes a small unit test at the end to test their knowledge.  
 
 ## The Flow 
-1. Download the material and go over the basics of the Xcode IDE.
+1. Download the material.
 2. Use the canvas iPhone preview on the right to give a brief overfiew of the topics that we will be covering.
 3. Pair with a slideshow or small reading assignment of different topics.
 4. Try out what you learned from the slideshow in the play area
