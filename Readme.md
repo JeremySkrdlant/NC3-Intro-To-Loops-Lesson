@@ -17,14 +17,14 @@ This is designed as a live demo for students to learn about using loops in Swift
 ## Download the Material
 Start by downloading this reposistory by clicking on the Code button and choosing to download the zip.  Feel free to fork the repository if you want to make changes or make it your own. 
 
-ADD IMAGE
+![Download Zip File](docs/DownloadLoopZip.png)
 
 <br><br>
 
 ## Open the project
 You will want to unzip the folder and then click on the project file to open Xcode. 
 
-ADD IMAGE
+![Double Click XcodeProj File](docs/ChooseXcodeProjFile.png)
 
 <br><br>
 
@@ -38,7 +38,7 @@ This is built for NC3.  It doesn't include any external libraries. It just has a
 ## Choose the Start file 
 In Xcode, on the left, choose the Start_Here file to begin the lesson. 
 
-ADD IMAGE
+![Trust to use](docs/ChooseStartHere.png)
 
 <br><br>
 
