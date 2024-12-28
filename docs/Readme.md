@@ -5,7 +5,7 @@ We have two challenges for you today.  The first is on using a while loop since 
 ![Buy Low - Sell Hi](BuyAndSell.png)
 
 ## While Loop Stock Market
-Our goal is to buy low and sell hi by using some conditionals and a while loop. We will be using a function called generateStockValue.  It behaves like the real stock market in that we can not predict what the price is going to do.  Note that this would be an extremely volital stock since it is completely random. 
+Our goal is to buy low and sell high by using some conditionals and a while loop. We will be using a function called generateStockValue.  It behaves like the real stock market in that we can not predict what the price is going to do.  Note that this would be an extremely volital stock since it is completely random. 
 
 ### Requirements 
 * When you buy (buyAmount variable gets set), You need to subtract that amount from moneyAmount
@@ -18,7 +18,7 @@ Our goal is to buy low and sell hi by using some conditionals and a while loop. 
 ### Flowchart 
 It might help to flowchart this out.  You can eithe create your own solution or take a peak at this flowchart which should work. 
 
-TODO: Add Link to Flowchart Image 
+
 
 ### Check Your Code
 Once you have your code in, run the unit test and see if it passes. 
@@ -29,7 +29,7 @@ In this challenge, we have a function set up for you that takes two inputs.  The
 ### Count Flowchart
 This is a common software pattern.  We start by creating a variable that is set to 0.  Then we loop through the array.  Each time through the loop, we check if the current value matches the value we are looking for.  If it does, we add one to our count variable. When we are done, we simply return our count variable. 
 
-TODO: Add Flochart Image 
+![Flowchart for Count Pattern](CountFlow.png) 
 
 ### Check Your Code 
 Once you have your code in, run the unit test and see if it passes. 
