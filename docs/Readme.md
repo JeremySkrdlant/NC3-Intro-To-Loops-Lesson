@@ -16,9 +16,9 @@ Our goal is to buy low and sell high by using some conditionals and a while loop
 * Make sure you do not sell for less than what you bought for. This could result in an infinite loop.
 
 ### Flowchart 
-It might help to flowchart this out.  You can eithe create your own solution or take a peak at this flowchart which should work. 
+It might help to flowchart this out.  You can either create your own solution or take a peak at this flowchart which should work. 
 
-
+![Stock Flowchart](StockFlow.png)
 
 ### Check Your Code
 Once you have your code in, run the unit test and see if it passes. 
