@@ -20,7 +20,7 @@ struct LoopsInstructions: View {
 				
 				
 				// This is our title and description text.
-				Text("Welcome to Swift Conditionals")
+				Text("Welcome to Swift Loops")
 					.font(.title)
 				Text("Click and drag to go through each of the sections.")
 					.multilineTextAlignment(.center)
