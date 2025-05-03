@@ -2,23 +2,34 @@
 We have two challenges for you today.  The first is on using a while loop since we can  not predict how many times it will run.  The second is on using a for loop to go through an array.  This is a common task that we do in app development. 
  
 
-![Buy Low - Sell Hi](BuyAndSell.png)
 
-## While Loop Stock Market
-Our goal is to buy low and sell high by using some conditionals and a while loop. We will be using a function called generateStockValue.  It behaves like the real stock market in that we can not predict what the price is going to do.  Note that this would be an extremely volital stock since it is completely random. 
+
+## Bitcoin Miner (Super Simple Simulated One)
+We are going to implement one of the core parts of a Bitcoin Minor.  Part of mining is that it requires a computer to do a bunch of calculations until it finds a correct number.  It is not a problem you can solve with algebra so the computer is left asking over and over again if a value is correct. It usually has to run for a while but if they get the correct answer first, they get rewarded Bitcoin. 
+
+🐿️ is it 1?
+  
+ 💻 No
+
+🐿️ is it 2
+
+ 💻 No
+
+🐿️ is it 3
+
+ 💻 Yes
+
+ 🐿️ Sweet, give me some Bitcoin.
 
 ### Requirements 
-* When you buy (buyAmount variable gets set), You need to subtract that amount from moneyAmount
-* When you sell (sellAmount variable gets set), You need to add that amount to the moneyAmount
-* You should not sell before you buy
-* You should not buy more than you start with so in this example it shouldn't be more than $60
-* This should only run though one buy and sell cycle so it should quit looping once you are profitable (You can hard code that value in)
-* Make sure you do not sell for less than what you bought for. This could result in an infinite loop.
+* You will need a variable to keep track of the current number.
+* You will call the mine function with the message and your number to get either a true or a false.  Once you get a true, you will need to break out of the loop and return the current number.
+  
 
 ### Flowchart 
 It might help to flowchart this out.  You can either create your own solution or take a peak at this flowchart which should work. 
 
-![Stock Flowchart](StockFlow.png)
+
 
 ### Check Your Code
 Once you have your code in, run the unit test and see if it passes. 
