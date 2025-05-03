@@ -10,22 +10,40 @@ import Testing
 
 struct LoopsDemoTests {
 	
-	func generateStockValue()->Int{
-		return Int.random(in: 20...100)
-	}
+    //This is used for the while loop challenge. It simulates mining for bitcoin.
+    func checkMineResult(message:String, nonce:Int)->Bool{
+        
+        //We are going to use the built in hasher in iOS, Bitcoin uses a sha256
+        //Note that the environment variable SWIFT_DETERMINISTIC_HASHING is set to 1 in order for this activity to work.  It should already be set for you.
+        var hasher = Hasher()
+        hasher.combine(message)
+        hasher.combine(nonce)
+        
+        //This is our hash as a string
+        let hash = "\(hasher.finalize())"
+        
+        //This lets you see the hash in the console
+        print("\(nonce) has a hash of \(hash)")
+        //We are correct if the hash number starts with 2 twos. Current Bitcoin mining requires the correct hash to start with 19 zeros.
+        let isCorrect = hash.starts(with: "22")
+        
+        
+        return isCorrect
+    }
+    
+    // This is your function to edit.
+    func myMiner(message:String)->Int{
+        
+        
+        return 0
+    }
 
     @Test func stockChallenge() async throws {
-        var moneyAmount = 60
-		var buyAmount = 0
-		var sellAmount = 0
-		
-		//Follow the instructions to buy low and sell high. Put your Code here
-		
-		
-		#expect(buyAmount > 19, "We should have set the buyAmount when we bought the stock.")
-		#expect(buyAmount < 60, "We can not buy more than what we have.")
-		#expect(sellAmount > buyAmount, "We buy low and sell high")
-		#expect(moneyAmount > 60, "We should have made money")
+        
+		//Edit myMiner to get these to pass.
+        #expect(myMiner(message: "Demo") == 62, "The correct nonce should be 62")
+        #expect(myMiner(message: "Swift is awesome") == 143, "The correct nonce should be 143")
+        #expect(myMiner(message: "Hasher injects a random number each time. To test you need to set an environment variable") == 14, "The correct nonce should be 14")
     }
 	
 	// We could use a filter on this but we want to work on our
