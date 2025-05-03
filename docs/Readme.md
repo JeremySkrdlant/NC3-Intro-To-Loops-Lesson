@@ -23,7 +23,7 @@ It might help to flowchart this out.  You can either create your own solution or
 ### Check Your Code
 Once you have your code in, run the unit test and see if it passes. 
 
-## Array Items Count Chalenge
+## Array Items Count Challenge
 In this challenge, we have a function set up for you that takes two inputs.  The first is an array called inputArray which is an array of ints.  The second is a variable named value that is an int.  This is the value you will be looking for in the array.  
 
 ### Count Flowchart
