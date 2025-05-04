@@ -1,8 +1,7 @@
 ## Loop Challenges
-We have two challenges for you today.  The first is on using a while loop since we can  not predict how many times it will run.  The second is on using a for loop to go through an array.  This is a common task that we do in app development. 
+We have two challenges for you today.  The first is on using a while loop since we can  not predict how many times it will run.  The second is on using a for loop to go through an array which is called iteration.  
  
-
-
+<br /><br />
 
 ## Bitcoin Miner (Super Simple Simulated One)
 We are going to implement one of the core parts of a Bitcoin Minor. It's the part that tries to solve the puzzle.  Part of mining is that it requires a computer to do a bunch of calculations until it finds a correct number.  It is not a problem you can solve with algebra so the computer is left asking over and over again if a value is correct.  It's using guess and check until if finds the correct answer. It usually has to run for a while but if they get the correct answer first, they get rewarded Bitcoin. 
